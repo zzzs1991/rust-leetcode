@@ -84,6 +84,7 @@ struct Solution;
 
 #[cfg(test)]
 mod tests {
+    use std::time::Instant;
     use crate::Solution;
 
     #[test]
